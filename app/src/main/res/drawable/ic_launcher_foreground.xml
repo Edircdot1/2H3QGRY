@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group
+        android:scaleX="0.65"
+        android:scaleY="0.65"
+        android:translateX="18.9"
+        android:translateY="18.9">
+        <!-- Shield background -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:fillAlpha="0.18"
+            android:pathData="M54,12 L84,24 L84,52 C84,72 70,89 54,96 C38,89 24,72 24,52 L24,24 Z" />
+        <!-- Shield Border -->
+        <path
+            android:strokeColor="#FFFFFF"
+            android:strokeWidth="3.5"
+            android:strokeLineCap="round"
+            android:strokeLineJoin="round"
+            android:pathData="M54,12 L84,24 L84,52 C84,72 70,89 54,96 C38,89 24,72 24,52 L24,24 Z" />
+        <!-- Vehicle silhouette -->
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M37,56 C38,51 40,46 45,44 L63,44 C68,46 70,51 71,56 L73,63 C73.5,65 72,67 70,67 L69,67 C67.5,67 66,65.5 66,64 L66,62 L42,62 L42,64 C42,65.5 40.5,67 39,67 L38,67 C36,67 34.5,65 35,63 Z" />
+        <!-- Wheels & Lights -->
+        <path
+            android:fillColor="#0058BC"
+            android:pathData="M41,58a3,3 0 1,0 6,0a3,3 0 1,0 -6,0 M61,58a3,3 0 1,0 6,0a3,3 0 1,0 -6,0" />
+        <path
+            android:fillColor="#FFFFFF"
+            android:pathData="M46,47 L62,47 L65,53 L43,53 Z" />
+        <!-- Sparkle / Care star -->
+        <path
+            android:fillColor="#72FE88"
+            android:pathData="M68,34 L70,39 L75,41 L70,43 L68,48 L66,43 L61,41 L66,39 Z" />
+    </group>
+</vector>

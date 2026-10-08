@@ -1,0 +1,6 @@
+{
+  "name": "iVehicle",
+  "description": "Hệ thống quản lý dịch vụ chăm sóc ô tô và xe máy cao cấp Việt Nam",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
